@@ -1,0 +1,96 @@
+
+body{
+    color: white; 
+    background-color:black;
+    font-family: 'avenir'; 
+    font-size: large;
+}
+
+
+#homepage body {
+    background-image: url(./isgafotos/amsterdamw.jpg);
+    background-size: 100% 150%;
+}
+
+h1{
+    text-align: center;   
+}
+h3{
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+    color: red;
+}
+
+h4{
+    text-align: center;
+    color: red;
+}
+
+
+#knop{
+    display: block;
+    margin: auto;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+#homepage a {
+    text-align: center;
+    color: white;
+}
+
+#homepage ul {
+    list-style: none;
+    display: -moz-stack;
+    text-align: center;
+    padding: 0.2em;
+    background-color: black;
+    margin:14em;
+    font-size: 16px;
+}
+
+#homepage header {
+    margin: 0em;
+    padding: 0.4em;
+    background-color: black;
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+#docpage ul {
+    list-style: none;
+    display: -moz-stack;
+    text-align: center;
+    padding: 0.2em;
+    background-color: black;
+    margin:14em;
+    font-size: 16px;
+}
+
+#docpage a {
+    text-align: center;
+    color: white;
+}
+
+#docpage body {
+    background-image: url(isgafotos/documents.jpg);
+    background-size: 100% 150%;
+}
+
+#fietserams {
+    height: 21em;
+    width: 14em;
+    float: right;
+}
+
+#legconpage article {
+    padding: 2em;
+    margin: 3em;
+}
