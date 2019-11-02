@@ -1,16 +1,9 @@
 
 body{
     color: white; 
-    background-color:red;
+    background-color:black;
     font-family: 'avenir'; 
-    font-size: xx-large;
-
-}
-
-
-#homepage body {
-    background-image: url(./isgafotos/amsterdamw.jpg);
-    background-size: 100% 150%;
+    font-size: x-large;
 }
 
 h1{
@@ -22,7 +15,9 @@ h3{
 }
 h2{
     text-align: center;
-    color: red;
+    color:white;
+    background-color: black;
+    margin: 0.8em;
 }
 
 h4{
@@ -40,6 +35,14 @@ a {
     text-decoration-line: none;
 }
 
+#getstart {
+    height: 5em;
+    width: 31em;
+}
+#homepage {
+    background-image: url(isgafotos/amsterdamw.jpeg);
+    background-position: center;
+}
 #homepage a {
     text-align: center;
     color: white;
@@ -50,14 +53,19 @@ a {
     display: -moz-stack;
     text-align: center;
     padding: 0.2em;
-    background-color: black;
-    margin:14em;
     font-size: 16px;
 }
 
-#homepage header {
+#homepage nav ul li a {
+    display: block;
+    width: 40em;
+    padding: 1em 1em 1em;
+    background-color: red;
+    font-size: 16px;
+}
+#hopage header {
     margin: 0em;
-    padding: 0.4em;
+    padding: 0em;
     background-color: black;
 }
 
@@ -65,13 +73,18 @@ a:visited {
     color: whitesmoke;
 }
 
+#docpage {
+    background-image: url(isgafotos/documents.jpeg);
+    background-position: center;
+}
+
 #docpage ul {
     list-style: none;
     display: -moz-stack;
     text-align: center;
     padding: 0.2em;
-    background-color: black;
-    margin:14em;
+    
+    margin:em;
     font-size: 16px;
 }
 
@@ -80,9 +93,11 @@ a:visited {
     color: white;
 }
 
-#docpage body {
-    background-image: url(isgafotos/documents.jpg);
-    background-size: 100% 150%;
+#docpage nav ul li a {
+    display: block;
+    width: 40em;
+    padding: 1em 1em 1em;
+    background-color: red;
 }
 
 #fietserams {
@@ -94,4 +109,17 @@ a:visited {
 #legconpage article {
     padding: 2em;
     margin: 3em;
+}
+
+#fotovandoc {
+    height: 10em;
+    width: 5em;
+
+}
+
+#bankiconen {
+    list-style: none;
+    margin:0.1em;
+    font-size: 16px;
+
 }
