@@ -1,9 +1,17 @@
-
+html {
+    width: 100vh;
+    height: 100vh;
+}
 body{
     color: white; 
     background-color:black;
     font-family: 'avenir'; 
     font-size: x-large;
+    overflow: hidden;
+    margin: 50px;
+    height: 667px;
+    width: 375px;
+    border: 1px solid black;
 }
 
 h1{
