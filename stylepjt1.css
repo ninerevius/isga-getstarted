@@ -19,6 +19,7 @@ h1{
 }
 h3{
     text-align: center;
+    text-shadow: 3px 3px black;
     
 }
 h2{
@@ -44,15 +45,15 @@ a {
 }
 
 #getstart {
-    height: 5em;
-    width: 31em;
+    height: 3em;
+    width: 18em;
 }
 #homepage {
     background-image: url(isgafotos/amsterdamw.jpeg);
     background-position: center;
+    width: 200x 400x;
 }
 #homepage a {
-    text-align: center;
     color: white;
 }
 
@@ -66,15 +67,18 @@ a {
 
 #homepage nav ul li a {
     display: block;
-    width: 40em;
-    padding: 1em 1em 1em;
+    width: 23em;
+    padding: 0.8em 0.01em 1em;
     background-color: red;
     font-size: 16px;
+    letter-spacing: 0.4em;
 }
-#hopage header {
+
+#homepage header {
     margin: 0em;
     padding: 0em;
     background-color: black;
+    border-radius: 25px;
 }
 
 a:visited {
@@ -97,15 +101,15 @@ a:visited {
 }
 
 #docpage a {
-    text-align: center;
     color: white;
 }
 
 #docpage nav ul li a {
     display: block;
-    width: 40em;
+    width: 21em;
     padding: 1em 1em 1em;
     background-color: red;
+    letter-spacing: 0.4em;
 }
 
 #fietserams {
@@ -129,5 +133,10 @@ a:visited {
     list-style: none;
     margin:0.1em;
     font-size: 16px;
+}
 
+#idback {
+    background-color: black;
+    text-align: left;
+    border-radius: 0.5em;
 }
