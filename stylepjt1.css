@@ -14,6 +14,7 @@ body {
     font-family: 'avenir';
     font-size: x-large;
     overflow: hidden;
+    height: 100vh;
 }
 
 position absulote h1 {
@@ -80,7 +81,7 @@ nav ul li a {
     width: 30vw;
 }
 
-#homepage header {
+header {
     margin: 0em;
     padding: 0em;
     background-color: black;
