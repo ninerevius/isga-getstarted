@@ -193,3 +193,12 @@ form {
     background-color: white;
     align-content: center;
 }
+
+#bankpage {
+    background-image: url(isgafotos/metro.jpg);
+}
+
+#bankpage p {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 1em;
+}
