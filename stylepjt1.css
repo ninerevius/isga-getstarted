@@ -97,6 +97,15 @@ a:visited {
     color: whitesmoke;
 }
 
+#helppage {
+    background-image: url(isgafotos/trees.jpg);
+}
+
+#helppage article {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 1em;
+}
+
 #docpage {
     background-image: url(isgafotos/documents.jpeg);
     background-position: center;
