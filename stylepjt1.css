@@ -16,7 +16,7 @@ body {
     color: white;
     background-color: black;
     font-family: 'avenir';
-    font-size: 60px;
+    font-size: 50px;
     overflow: hidden;
 }
 
@@ -99,7 +99,7 @@ a:visited {
 #docpage {
     background-image: url(isgafotos/documents.jpeg);
     background-position: center;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 #docpage a {
@@ -166,7 +166,7 @@ form {
     background-image: url(isgafotos/bouwams.jpg);
     background-position: center;
     height: 5vh;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 #permitpage article {
