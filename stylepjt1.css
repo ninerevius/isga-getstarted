@@ -14,7 +14,6 @@ body {
     font-family: 'avenir';
     font-size: x-large;
     overflow: hidden;
-    height: 100vh;
 }
 
 position absulote h1 {
@@ -121,6 +120,11 @@ a:visited {
     list-style: none;
     margin: 0.1em;
     font-size: 16px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 20vw 20vw;
 }
 
 #idback {
