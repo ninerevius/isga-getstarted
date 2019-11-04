@@ -181,3 +181,8 @@ form {
     margin-left: auto;
     margin-right: auto;
 }
+
+#beginpage {
+    background-image: url(isgafotos/beginscherm5.jpg);
+    background-position: center;
+}
