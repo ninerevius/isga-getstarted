@@ -8,6 +8,10 @@
     zoom: 1.0;
 }
 
+ul {
+    list-style-type: none;
+}
+
 body {
     color: white;
     background-color: black;
@@ -120,15 +124,28 @@ a:visited {
     list-style: none;
     margin: 0.1em;
     font-size: 16px;
-    border-bottom: 3px;
     display: flex;
+    padding: 1em;
+    flex-direction: column;
 }
 
-.grid display: grid;
-grid-template-columns: 20vw 20vw;
-margin-bottom: 1.5rem;
+.grid {
+    /* display: grid;
+    grid-template-columns: 20vw 20vw;
+    margin-bottom: 1.5rem; */
+    text-align: center;
+}
+
+.grid p {
+    font-size: 50px;
+}
+
 #idback {
     background-color: black;
     text-align: left;
     border-radius: 0.5em;
+}
+
+.icons {
+    width: 30%;
 }
