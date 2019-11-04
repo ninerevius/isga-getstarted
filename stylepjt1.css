@@ -204,10 +204,5 @@ form {
 }
 
 iframe {
-    padding: 5em;
-}
-
-#legconpage footer {
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 1em;
+    margin-left: 4em;
 }
