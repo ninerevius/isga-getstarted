@@ -16,7 +16,7 @@ body {
     color: white;
     background-color: black;
     font-family: 'avenir';
-    font-size: x-large;
+    font-size: 60px;
     overflow: hidden;
 }
 
@@ -99,6 +99,7 @@ a:visited {
 #docpage {
     background-image: url(isgafotos/documents.jpeg);
     background-position: center;
+    font-size: 60px;
 }
 
 #docpage a {
@@ -114,7 +115,6 @@ a:visited {
 #legconpage article {
     padding: 2em;
     margin: 3em;
-    font-size: 40px;
 }
 
 #fotovandoc {
@@ -185,8 +185,4 @@ form {
 
 #beginpage {
     background-color: white;
-}
-
-#beginpage a {
-    margin-bottom: 20em;
 }
