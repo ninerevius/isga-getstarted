@@ -1,41 +1,43 @@
-html {
-    width: 100vh;
-    height: 100vh;
-}
-body{
-    color: white; 
-    background-color:black;
-    font-family: 'avenir'; 
-    font-size: x-large;
-    overflow: hidden;
-    margin: 50px;
-    height: 667px;
-    width: 375px;
-    border: 1px solid black;
+@viewport {
+    zoom: 1;
+    width: extended-to-zoom;
 }
 
-h1{
-    text-align: center;   
+@-ms-viewport {
+    width: extended-to-zoom;
+    zoom: 1.0;
 }
-h3{
+
+body {
+    color: white;
+    background-color: black;
+    font-family: 'avenir';
+    font-size: x-large;
+    overflow: hidden;
+}
+
+position absulote h1 {
+    text-align: center;
+}
+
+h3 {
     text-align: center;
     text-shadow: 3px 3px black;
-    
 }
-h2{
+
+h2 {
     text-align: center;
-    color:white;
+    color: white;
     background-color: black;
     margin: 0.8em;
 }
 
-h4{
+h4 {
     text-align: center;
     color: red;
 }
 
-
-#knop{
+#knop {
     display: block;
     margin: auto;
 }
@@ -47,12 +49,15 @@ a {
 #getstart {
     height: 3em;
     width: 18em;
+    position: absolute;
 }
+
 #homepage {
     background-image: url(isgafotos/amsterdamw.jpeg);
     background-position: center;
     width: 200x 400x;
 }
+
 #homepage a {
     color: white;
 }
@@ -65,10 +70,11 @@ a {
     font-size: 16px;
 }
 
-#homepage nav ul li a {
+nav ul li a {
     display: block;
     width: 23em;
     padding: 0.8em 0.01em 1em;
+    margin-bottom: 0.2rem;
     background-color: red;
     font-size: 16px;
     letter-spacing: 0.4em;
@@ -95,8 +101,7 @@ a:visited {
     display: -moz-stack;
     text-align: center;
     padding: 0.2em;
-    
-    margin:em;
+    margin: em;
     font-size: 16px;
 }
 
@@ -108,6 +113,7 @@ a:visited {
     display: block;
     width: 21em;
     padding: 1em 1em 1em;
+    margin-bottom: 0.5rem;
     background-color: red;
     letter-spacing: 0.4em;
 }
@@ -126,12 +132,11 @@ a:visited {
 #fotovandoc {
     height: 10em;
     width: 5em;
-
 }
 
 #bankiconen {
     list-style: none;
-    margin:0.1em;
+    margin: 0.1em;
     font-size: 16px;
 }
 
