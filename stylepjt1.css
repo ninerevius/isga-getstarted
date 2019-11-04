@@ -82,6 +82,7 @@ nav ul li a {
     list-style: none;
     height: 10vh;
     width: 30vw;
+    text-align: center;
 }
 
 header {
@@ -104,7 +105,7 @@ a:visited {
     color: white;
 }
 
-#fietserams {
+#raihalte {
     height: 21em;
     width: 14em;
     float: right;
