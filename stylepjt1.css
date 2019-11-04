@@ -174,3 +174,10 @@ form {
     opacity: 80%;
     border-radius: 1em;
 }
+
+#checkperm {
+    width: 10em;
+    height: 10em;
+    margin-left: auto;
+    margin-right: auto;
+}
