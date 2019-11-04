@@ -114,6 +114,7 @@ a:visited {
 #legconpage article {
     padding: 2em;
     margin: 3em;
+    font-size: 30px;
 }
 
 #fotovandoc {
@@ -167,11 +168,11 @@ form {
     background-image: url(isgafotos/bouwams.jpg);
     background-position: center;
     height: 5vh;
+    font-size: 30px;
 }
 
 #permitpage article {
-    background-color: black;
-    opacity: 80%;
+    background-color: rgba(0, 0, 0, 0.8);
     border-radius: 1em;
 }
 
@@ -184,4 +185,8 @@ form {
 
 #beginpage {
     background-color: white;
+}
+
+#beginpage a {
+    margin-bottom: 20em;
 }
