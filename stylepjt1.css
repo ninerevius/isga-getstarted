@@ -166,6 +166,7 @@ form {
 #permitpage {
     background-image: url(isgafotos/bouwams.jpg);
     background-position: center;
+    height: 5vh;
 }
 
 #permitpage article {
