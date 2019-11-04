@@ -64,25 +64,18 @@ a {
     color: white;
 }
 
-#homepage ul {
-    list-style: none;
-    display: -moz-stack;
-    text-align: center;
-    padding: 0.2em;
-    font-size: 16px;
-}
-
 nav ul li a {
     width: 23em;
-    padding: 0.8em 0.01em 1em;
-    margin-bottom: 0.2rem;
+    padding: 1em 0.01em 1em;
+    margin-bottom: 0.8rem;
     background-color: red;
-    font-size: 16px;
+    font-size: 30px;
     letter-spacing: 0.4em;
     display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 0.8em;
 }
 
 #homepage header {
@@ -101,26 +94,8 @@ a:visited {
     background-position: center;
 }
 
-#docpage ul {
-    list-style: none;
-    display: -moz-stack;
-    text-align: center;
-    padding: 0.2em;
-    margin: em;
-    font-size: 16px;
-}
-
 #docpage a {
     color: white;
-}
-
-#docpage nav ul li a {
-    display: block;
-    width: 21em;
-    padding: 1em 1em 1em;
-    margin-bottom: 0.5rem;
-    background-color: red;
-    letter-spacing: 0.4em;
 }
 
 #fietserams {
