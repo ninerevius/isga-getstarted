@@ -142,9 +142,7 @@ a:visited {
 }
 
 #idback {
-    background-color: black;
-    text-align: left;
-    border-radius: 0.5em;
+    background-color: black text-align: left;
 }
 
 .icons {
@@ -184,4 +182,5 @@ form {
 
 #beginpage {
     background-color: white;
+    align-content: center;
 }
