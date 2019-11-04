@@ -106,15 +106,13 @@ a:visited {
     color: white;
 }
 
-#raihalte {
-    height: 21em;
-    width: 14em;
-    float: right;
+#legconpage {
+    background-image: url(isgafotos/haltemetro.jpg);
 }
 
 #legconpage article {
-    padding: 2em;
-    margin: 3em;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 1em;
 }
 
 #fotovandoc {
