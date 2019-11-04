@@ -150,3 +150,26 @@ a:visited {
 .icons {
     width: 30%;
 }
+
+form {
+    justify-content: left;
+    display: inline-block;
+    padding: 5px 1px;
+    width: 14%;
+}
+
+#helpme {
+    color: red;
+    text-decoration: underline;
+}
+
+#permitpage {
+    background-image: url(isgafotos/bouwams.jpg);
+    background-position: center;
+}
+
+#permitpage article {
+    background-color: black;
+    opacity: 80%;
+    border-radius: 1em;
+}
