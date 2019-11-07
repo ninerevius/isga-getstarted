@@ -20,7 +20,7 @@ body {
     overflow: hidden;
 }
 
-position absulote h1 {
+h1 {
     text-align: center;
 }
 
@@ -120,8 +120,7 @@ a:visited {
 }
 
 article {
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 1em;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 #fotovandoc {
@@ -176,11 +175,6 @@ form {
     font-size: 50px;
 }
 
-article {
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 1em;
-}
-
 #checkperm {
     width: 10em;
     height: 10em;
@@ -205,7 +199,7 @@ iframe {
     margin-left: 4em;
 }
 
-#isga {
+#logostart {
     width: 100vh;
     height: 100vh;
 }
